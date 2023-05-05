@@ -3,7 +3,7 @@
 Sentiment analysis is a technique used in natural language processing and machine learning that involves identifying the emotional tone or attitude expressed in a piece of text, such as a tweet, product review, or news article. The goal of this project is to determine whether the sentiment expressed in the text is positive, negative, or neutral.
 
 ### Data
-The dataset was taken From Kaggle "Sentiment Analysis Dataset", you can find by the following link "https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset?select=training.1600000.processed.noemoticon.csv". 
+The dataset was taken From Kaggle "Sentiment Analysis Dataset", you can find by the following link https://www.kaggle.com/datasets/abhi8923shriv/sentiment-analysis-dataset?select=training.1600000.processed.noemoticon.csv. 
 
 Data file format has 6 fields:
 - 0 - the polarity of the tweet (0 = negative, 2 = neutral, 4 = positive)
