@@ -19,3 +19,6 @@ For this taks, we first define a Sequential model and add layers to it. The firs
 Next, we add two LSTM layers with 128 and 64 units, respectively, followed by Dropout layers to prevent overfitting. Finally, we add a Dense output layer with a single unit and a sigmoid activation function, which outputs a probability between 0 and 1 indicating the likelihood that the input belongs to the positive class.
 
 We then compile the model with binary cross-entropy loss and the Adam optimizer, and specify that we want to track the accuracy metric during training. Finally, we fit the model to our training data, specifying a validation set, the number of epochs to train for, and the batch size to use during training
+
+### Architecture
+Developed model was built in into simple web application, which was created using python Flask framework.It is a popular open-source Python web framework that allows developers to build web applications quickly and easily. It provides a simple and flexible way to create web applications and APIs with minimal code, making it a popular choice for building small to medium-sized web applications.
