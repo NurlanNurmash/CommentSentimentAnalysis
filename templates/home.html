@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> Predict Comment </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	
+	<style>
+		body{
+			background: rgb(203, 215, 246);
+		}
+	</style>
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h2>Sentiment Analysis for text</h2>
+				
+		<form action="{{ url_for('predict')}}" method="POST">
+			<p>Enter Your Text Here</p>
+			<textarea name="comment" rows="4", cols="50"></textarea>
+			<br/>
+			<input type="submit" class="btn-info", value='predict'>
+		</form>
+		</div>
+	
+	</header>
+
+</body>
+</html>

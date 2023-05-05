@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Result</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		
+	<style>
+		body{
+			background: rgb(203, 215, 246);
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="container">
+			
+			<h2>Sentiment Analysis for text</h2>
+			<p style="color:blue;font-size:20;text-align: center;"><b>The tweets result</b></p>
+			<div class="center-block">
+		<div class="results">
+			{% if prediction == 0%}
+			<h2 style="color:red;">Negative</h2>
+			{% elif prediction == 1%}
+			<h2 style="color:blue;">Positive</h2>
+			{% endif %}
+		</div>
+		</div>
+		</div>
+
+	
+
+	</header>
+
+	
+</body>
+</html>
